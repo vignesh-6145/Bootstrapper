@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y7P9OjSU20S/h3NsCb92++mv84RJXBZAUuaNGdXF+uL55x/Qmx2aebTuocB91XKRiQNISQeRLTKOJsX3MauzaQ==",
+  "dgSpecHash": "AHHC3pffGCb5Hzrb3k0C5AoPbIVghAmt4i7VPeaePnqzYWSokRqHVGHG24prfHf6WpLkdQ9si6vzcyU0ZvuFaQ==",
   "success": true,
-  "projectFilePath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\Bootstrapper\\Bootstrapper.csproj",
+  "projectFilePath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vigne\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
   ],

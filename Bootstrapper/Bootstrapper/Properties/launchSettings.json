@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bootstrapper": {
+      "commandName": "Project",
+      "commandLineArgs": "-l vignesh"
+    }
+  }
+}
