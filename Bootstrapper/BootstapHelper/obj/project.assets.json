@@ -51,19 +51,6 @@
             "locale": "zh-Hant"
           }
         }
-      },
-      "BootstapHelper/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "System.CommandLine": "2.0.0-beta4.22272.1"
-        },
-        "compile": {
-          "bin/placeholder/BootstapHelper.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BootstapHelper.dll": {}
-        }
       }
     }
   },
@@ -111,16 +98,11 @@
         "system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
         "system.commandline.nuspec"
       ]
-    },
-    "BootstapHelper/1.0.0": {
-      "type": "project",
-      "path": "../BootstapHelper/BootstapHelper.csproj",
-      "msbuildProject": "../BootstapHelper/BootstapHelper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BootstapHelper >= 1.0.0"
+      "System.CommandLine >= 2.0.0-beta4.22272.1"
     ]
   },
   "packageFolders": {
@@ -129,11 +111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\Bootstrapper\\Bootstrapper.csproj",
-      "projectName": "Bootstrapper",
-      "projectPath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\Bootstrapper\\Bootstrapper.csproj",
+      "projectUniqueName": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj",
+      "projectName": "BootstapHelper",
+      "projectPath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj",
       "packagesPath": "C:\\Users\\vigne\\.nuget\\packages\\",
-      "outputPath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\Bootstrapper\\obj\\",
+      "outputPath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vigne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +131,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj": {
-              "projectPath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -165,6 +143,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "System.CommandLine": {
+            "target": "Package",
+            "version": "[2.0.0-beta4.22272.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

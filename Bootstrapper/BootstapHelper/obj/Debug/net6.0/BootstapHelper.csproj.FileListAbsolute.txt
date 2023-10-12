@@ -1,0 +1,12 @@
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\bin\Debug\net6.0\BootstapHelper.deps.json
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\bin\Debug\net6.0\BootstapHelper.dll
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\bin\Debug\net6.0\BootstapHelper.pdb
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.csproj.AssemblyReference.cache
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.GeneratedMSBuildEditorConfig.editorconfig
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.AssemblyInfoInputs.cache
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.AssemblyInfo.cs
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.csproj.CoreCompileInputs.cache
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.dll
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\refint\BootstapHelper.dll
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.pdb
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\ref\BootstapHelper.dll

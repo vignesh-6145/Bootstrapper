@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using BootstapHelper;
+
+var capture = new Capture();
+
+capture.start(args);
