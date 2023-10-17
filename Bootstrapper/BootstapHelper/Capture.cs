@@ -1,8 +1,12 @@
-﻿using System.CommandLine;
+﻿using Microsoft.Extensions.Logging;
+using System.CommandLine;
+
 namespace BootstapHelper
 {
     public class Capture
     {
+      
+
         // starts capturing the user inputs from CLI and also displays the home screen
         public void start(string[] args)
         {
@@ -39,7 +43,8 @@ namespace BootstapHelper
             rootCommand.Add(packagesOption);
 
             rootCommand.SetHandler((langValue, classValue, isMainValue, packagesValue) 
-                                   => { 
+                                   => {
+                                       
                                         Console.WriteLine($"langValue : {langValue}");
                                         Console.WriteLine($"classValue : {classValue}");
                                         Console.WriteLine($"isMainValue : {isMainValue}");
