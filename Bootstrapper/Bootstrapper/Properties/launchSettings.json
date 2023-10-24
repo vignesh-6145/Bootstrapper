@@ -2,7 +2,7 @@
   "profiles": {
     "Bootstrapper": {
       "commandName": "Project",
-      "commandLineArgs": "-l C# -c AbcMain -m -p util -p lang"
+      "commandLineArgs": "-l java -c Human -m -f eat -f move -f drink -f play -f enjoy"
     }
   }
 }

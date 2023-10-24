@@ -10,3 +10,4 @@ F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\Boots
 F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\refint\BootstapHelper.dll
 F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\BootstapHelper.pdb
 F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\obj\Debug\net6.0\ref\BootstapHelper.dll
+F:\.NET\projects\Bootstrapper\Bootstrapper\BootstapHelper\bin\Debug\net6.0\Resources\Configuration.json
