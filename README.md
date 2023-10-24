@@ -2,7 +2,9 @@
 
 <p align="center"><img src="https://socialify.git.ci/vignesh-6145/Bootstrapper/image?description=1&amp;descriptionEditable=A%20simple%20command%20line%20utility%20which%20bootstraps%20the%20file%20you%20want%20to%20run%20at%20the%20ease%20of%20a%20click&amp;font=Raleway&amp;language=1&amp;name=1&amp;pattern=Brick%20Wall&amp;theme=Light" alt="project-image"></p>
 
-<p id="description">While practicing DSA or during our initial days of Programming we always code in text editors.Creating files in text editors required a lot of clicks and need more boiler plate code which sometimes we feel redundant atleast for me to write same piece of especially in Languages like java.<br><br>So skip this process with just command at your CLI aresnal</p>
+<p id="description">While practicing DSA or during our initial days of Programming we always code in text editors.Creating files in text editors required a lot of clicks and need more boiler plate code which sometimes we feel redundant atleast for me to write same piece of especially in Languages like java.
+
+So skip this creates the entire Ready to execute file with just a single command</p>
 
 <p align="center"><img src="https://img.shields.io/badge/Console_Application-blue" alt="shields"><img src="https://img.shields.io/badge/.NET-Core-green" alt="shields"></p>
 
