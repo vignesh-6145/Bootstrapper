@@ -45,3 +45,5 @@ F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\Microso
 F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\System.Text.Json.dll
 F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\Resources\Configuration.json
+F:\.NET\projects\Bootstrapper\Bootstrapper\Bootstrapper\bin\Debug\net6.0\Newtonsoft.Json.dll

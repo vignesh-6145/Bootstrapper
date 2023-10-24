@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BootstapHelper.Services
 {
-    public interface IClassGenerator
+    public interface IGenerator
     {
-        string Generate(ClassTemplate ClassTemplate);
+        string GenerateClass(ClassTemplate ClassTemplate);
+        string GenerateMethod(MethodTemplate MethodTemplate);
     }
 }

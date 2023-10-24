@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gepn0fYhKDDtQGVRNC/vnXuDoJxeHxxKEWa7Khj1z3rax5AOmwMyn1NLspYsBbmZMJ+yrqFtq47EC1WVDEPj8Q==",
+  "dgSpecHash": "+DjNvD8k2FANGUeO9wL3SNSNGJDEFPukcTxGvJ179aht47ROBFyMySdPd9y6Ly9oUhGp8/QmRW3ierEY6engRg==",
   "success": true,
   "projectFilePath": "F:\\.NET\\projects\\Bootstrapper\\Bootstrapper\\BootstapHelper\\BootstapHelper.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\vigne\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-rc.2.23479.6\\microsoft.extensions.options.8.0.0-rc.2.23479.6.nupkg.sha512",
     "C:\\Users\\vigne\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0-rc.2.23479.6\\microsoft.extensions.options.configurationextensions.8.0.0-rc.2.23479.6.nupkg.sha512",
     "C:\\Users\\vigne\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-rc.2.23479.6\\microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\vigne\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\vigne\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
     "C:\\Users\\vigne\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\vigne\\.nuget\\packages\\system.text.encodings.web\\8.0.0-rc.2.23479.6\\system.text.encodings.web.8.0.0-rc.2.23479.6.nupkg.sha512",

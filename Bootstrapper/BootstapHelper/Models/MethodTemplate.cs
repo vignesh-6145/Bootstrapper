@@ -6,13 +6,21 @@ using System.Threading.Tasks;
 
 namespace BootstapHelper.Models
 {
-    public class MethodTemplate
+    public class MethodTemplate : Template
     {
-        private string MethodName { get; set; }
-        private string Modifier { get; set; } = "public";
+        
+        public MethodTemplate(string Name, string args, string Modifier = "private", string ReturnType = "void", bool IsStatic = false)
+        {
+            this.Name = Name;
+            this.Modifier = Modifier;
+            this.ReturnType = ReturnType;
+            this.IsStatic = IsStatic;
+            this.Arguments = args;
+        }
+        public string Arguments { get; set; }
+        public string ReturnType { get; set; } = "void";
 
-        private string ReturnType { get; set; } = "void";
-
+        public bool IsStatic { get; set; } = false;
         
     }
 }

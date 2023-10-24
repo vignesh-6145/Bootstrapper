@@ -1,0 +1,8 @@
+{
+  "java": {
+    "ClassSignature": "<Modifier> class <ClassName>",
+    "MethodSignature": "<Modifier> <Static> <ReturnType> <MethodName>(<Arguments>)",
+    "InterfaceSignature": "<Modifier> interface <InterfaceName>",
+    "FileExtension": "java"
+  }
+}

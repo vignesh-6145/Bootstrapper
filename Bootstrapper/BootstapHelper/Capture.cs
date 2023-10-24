@@ -1,5 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using BootstapHelper.Services;
+using BootstapHelper.Utils;
+using BootstapHelper.Models;
+using Microsoft.Extensions.Logging;
 using System.CommandLine;
+using Newtonsoft.Json;
 
 namespace BootstapHelper
 {
@@ -27,10 +31,10 @@ namespace BootstapHelper
             isMainOption.Arity = ArgumentArity.ZeroOrOne;
             isMainOption.Description = "This specifies whether the class contains a main method or not";
 
-            var packagesOption = new Option<string[]>("-p");
-            packagesOption.AddAlias("--packages");
-            packagesOption.Arity = ArgumentArity.ZeroOrMore;
-            packagesOption.Description="Specify the packages you require to import";
+            var functionsOption = new Option<string[]>("-f");
+            functionsOption.AddAlias("--functions");
+            functionsOption.Arity = ArgumentArity.ZeroOrMore;
+            functionsOption.Description="Specify the funcions in the class";
 
             
 
@@ -40,17 +44,25 @@ namespace BootstapHelper
             rootCommand.Add(langOption);
             rootCommand.Add(classOption);
             rootCommand.Add(isMainOption);
-            rootCommand.Add(packagesOption);
+            rootCommand.Add(functionsOption);
 
-            rootCommand.SetHandler((langValue, classValue, isMainValue, packagesValue) 
+            rootCommand.SetHandler((langValue, classValue, isMainValue, functionsValue) 
                                    => {
-                                       
-                                        Console.WriteLine($"langValue : {langValue}");
-                                        Console.WriteLine($"classValue : {classValue}");
-                                        Console.WriteLine($"isMainValue : {isMainValue}");
-                                       Console.WriteLine($"packagesValue : {packagesValue.Count()}");
+                                       //Signature Signature = JsonConvert.DeserializeObject<Signature>();
+                                       //Console.WriteLine(Signature.ClassSignature);
+                                       try
+                                       {
+                                           ClassTemplate Template = new ClassTemplate(classValue, isMainValue, functionsValue);
+                                           FileGenerator _FileGenerator = new FileGenerator(CoreUtils.GetSignature(langValue));
+                                           _FileGenerator.Generate(Template);
+                                       }
+                                       catch(Exception e)
+                                       {
+                                           Console.WriteLine("Gone something wrong");
+                                       }
+
                                     }
-                                    , langOption,classOption,isMainOption,packagesOption);
+                                    , langOption,classOption,isMainOption, functionsOption);
             rootCommand.Invoke(args);
         }
 
