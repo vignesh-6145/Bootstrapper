@@ -4,7 +4,7 @@
 
 <p id="description">While practicing DSA or during our initial days of Programming we always code in text editors.Creating files in text editors required a lot of clicks and need more boiler plate code which sometimes we feel redundant atleast for me to write same piece of especially in Languages like java.
 
-So skip this creates the entire Ready to execute file with just a single command</p>
+So skip this process, Bootstrapper gives you a Ready to execute file with just a single command</p>
 
 <p align="center"><img src="https://img.shields.io/badge/Console_Application-blue" alt="shields"><img src="https://img.shields.io/badge/.NET-Core-green" alt="shields"></p>
 
